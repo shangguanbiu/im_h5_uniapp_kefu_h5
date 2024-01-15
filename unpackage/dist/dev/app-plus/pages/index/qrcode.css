@@ -1,0 +1,24 @@
+/* 水平间距 */
+/* 水平间距 */
+.mosowe-canvas-image[data-v-fb39ae73] {
+  overflow: hidden;
+}
+.mosowe-canvas-image .canvas-wrap-box[data-v-fb39ae73] {
+  overflow: hidden;
+  height: 0;
+  width: 0;
+  position: fixed;
+  left: 200%;
+  top: 0;
+}
+.mosowe-canvas-image .canvas-wrap[data-v-fb39ae73] {
+  overflow: hidden;
+  height: 0;
+  width: 0;
+}
+
+.list-image[data-v-aa5a6a87] {
+		width: 2.5rem;
+		height: 2.5rem;
+		font-size: 0;
+}

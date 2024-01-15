@@ -1,0 +1,128 @@
+
+body[data-v-b4ae5aa5] {
+		background: #190D30;
+}
+[data-v-b4ae5aa5] .van-popup {
+		z-index: 99999;
+}
+[data-v-b4ae5aa5] .van-empty__image {
+		width: 230px;
+		height: 230px;
+}
+[data-v-b4ae5aa5] .wxParse {
+		color: #969799;
+}
+.rizi_top[data-v-b4ae5aa5] {
+		height: 110px;
+		background: #3E3EF7;
+		border-radius: 0 0 22px 22px;
+}
+.rizi_line[data-v-b4ae5aa5] {
+
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 0;
+}
+.tit_l[data-v-b4ae5aa5] {
+		font-size: 16px;
+		color: #fff;
+		padding: 0px 15px;
+		position: relative;
+		line-height: 30px;
+		display: flex;
+}
+.tit_day[data-v-b4ae5aa5] {
+		background: #fff;
+		border-radius: 17px;
+		display: flex;
+		padding: 5px 15px;
+		margin-right: 15px;
+}
+.r_rr[data-v-b4ae5aa5] {
+		color: #fff;
+		font-size: 22px;
+		margin-right: 5px;
+}
+.r_rl[data-v-b4ae5aa5] {
+		color: #3E3EF7;
+		font-size: 22px;
+}
+.r_year[data-v-b4ae5aa5] {
+		font-size: 14px;
+		padding: 0 10px;
+		line-height: 28px;
+}
+.r_dowm[data-v-b4ae5aa5] {
+		color: #74778A;
+		font-size: 18px;
+		line-height: 28px;
+		padding-left: 5px;
+}
+.listare[data-v-b4ae5aa5] {
+		height: auto;
+		width: 95%;
+		margin: auto;
+		margin-top: 10px;
+}
+.li_are[data-v-b4ae5aa5] {
+		height: auto;
+		overflow: hidden;
+		width: calc(100% - 1rem);
+		border-radius: 8px;
+		padding: 16px;
+		background: #fff;
+		margin-bottom: 15px;
+}
+.li_a_top[data-v-b4ae5aa5] {
+
+		width: 100%;
+
+		font-size: 15px;
+}
+.li_a_top_p[data-v-b4ae5aa5] {
+		font-size: 12px;
+		color: #969799;
+		padding-top: 10px
+}
+.li_tit[data-v-b4ae5aa5] {
+		padding-left: 15px;
+		flex-grow: 2
+}
+.li_more[data-v-b4ae5aa5] {
+		color: #74778A;
+		font-size: 13px;
+		line-height: 24px;
+}
+.li_money[data-v-b4ae5aa5] {
+		flex-grow: 2;
+		font-size: 24px;
+		display: flex;
+}
+.li_moneytt[data-v-b4ae5aa5] {
+		font-size: 13px;
+		color: #74778A;
+		line-height: 31px;
+}
+.li_see[data-v-b4ae5aa5] {
+		line-height: 31px;
+		font-size: 24px;
+}
+.money_line[data-v-b4ae5aa5] {
+		margin-top: 10px;
+		font-size: 13px;
+		position: relative;
+		color: #969799;
+		display: flex;
+}
+.money_lr[data-v-b4ae5aa5] {
+		position: absolute;
+		right: 5px;
+		top: -7px;
+		color: #969799;
+		font-size: 24px;
+}
+.empty_ico[data-v-b4ae5aa5] {
+		display: block;
+		margin-top: 20px;
+		color: #74778A;
+}

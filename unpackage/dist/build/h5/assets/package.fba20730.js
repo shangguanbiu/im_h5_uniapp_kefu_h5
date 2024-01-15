@@ -1,0 +1,1 @@
+const e={name:"IM",version:"3.1.1",description:"聊天工具",logo:"https://im.file.raingad.com/logo/logo.png",author:"IM",main:"main.js",scripts:{test:'echo "Error: no test specified" && exit 1'},repository:{type:"git",url:""},keywords:[],license:"ISC",dependencies:{jsqr:"^1.4.0",pinia:"^2.0.23","vue-i18n":"^8.28.2"}};export{e as p};

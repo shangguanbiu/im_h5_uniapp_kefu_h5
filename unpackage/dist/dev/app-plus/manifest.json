@@ -1,0 +1,213 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__FDD4129",
+  "name": "喇叭花",
+  "version": {
+    "name": "3.1.1",
+    "code": 20231021
+  },
+  "description": "喇叭花",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Record": {},
+    "UIWebview": {},
+    "VideoPlayer": {},
+    "Push": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview"
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "compilerVersion": 3,
+    "nvueStyleCompiler": "uni-app",
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/logo.png",
+          "xhdpi": "unpackage/logo.png",
+          "xxhdpi": "unpackage/logo.png",
+          "xxxhdpi": "unpackage/logo.png"
+        },
+        "ios": {
+          "appstore": "unpackage/logo.png",
+          "ipad": {
+            "app": "unpackage/logo.png",
+            "app@2x": "unpackage/logo.png",
+            "notification": "unpackage/logo.png",
+            "notification@2x": "unpackage/logo.png",
+            "proapp@2x": "unpackage/logo.png",
+            "settings": "unpackage/logo.png",
+            "settings@2x": "unpackage/logo.png",
+            "spotlight": "unpackage/logo.png",
+            "spotlight@2x": "unpackage/logo.png"
+          },
+          "iphone": {
+            "app@2x": "unpackage/logo.png",
+            "app@3x": "unpackage/logo.png",
+            "notification@2x": "unpackage/logo.png",
+            "notification@3x": "unpackage/logo.png",
+            "settings@2x": "unpackage/logo.png",
+            "settings@3x": "unpackage/logo.png",
+            "spotlight@2x": "unpackage/logo.png",
+            "spotlight@3x": "unpackage/logo.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "useOriginalMsgbox": false,
+        "androidStyle": "default",
+        "android": {
+          "hdpi": "static/image/480.png",
+          "xhdpi": "static/image/720.png",
+          "xxhdpi": "static/image/1080.png"
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MANAGE_APP_TOKENS\"/>",
+          "<uses-permission android:name=\"android.permission.MANAGE_DOCUMENTS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_FORMAT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ],
+        "abiFilters": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86"
+        ],
+        "minSdkVersion": 21,
+        "targetSdkVersion": ""
+      },
+      "apple": {
+        "dSYMs": false
+      },
+      "plugins": {
+        "ad": {},
+        "push": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "nativePlugins": {
+      "lemonjk-FileSelect": {
+        "__plugin_info__": {
+          "name": "FileSelect",
+          "description": "文件选取插件",
+          "platforms": "Android,iOS",
+          "url": "",
+          "android_package_name": "",
+          "ios_bundle_id": "",
+          "isCloud": false,
+          "bought": -1,
+          "pid": "",
+          "parameters": {}
+        }
+      }
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "control": "uni-v3",
+      "vueVersion": "3",
+      "compilerVersion": "3.98",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      },
+      "nvueLaunchMode": "normal",
+      "webView": {
+        "minUserAgentVersion": "49.0"
+      }
+    },
+    "tabBar": {
+      "position": "bottom",
+      "color": "#333",
+      "selectedColor": "#1AAD19",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "blurEffect": "none",
+      "fontSize": "10px",
+      "iconWidth": "24px",
+      "spacing": "3px",
+      "height": "50px",
+      "custom": true,
+      "backgroundColor": "#FFFFFF",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "/static/image/tabbar/demo.png",
+          "selectedIconPath": "/static/image/tabbar/demo.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/contacts/index",
+          "iconPath": "/static/image/tabbar/demo.png",
+          "selectedIconPath": "/static/image/tabbar/demo.png",
+          "text": "通讯录"
+        }
+      ],
+      "selectedIndex": 0,
+      "shown": true,
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  },
+  "launch_path": "__uniappview.html"
+}

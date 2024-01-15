@@ -1,0 +1,154 @@
+{
+    "name" : "BaoBao TV",
+    "appid" : "__UNI__FDD4129",
+    "description" : "BaoBao TV",
+    "versionName" : "3.1.1",
+    "versionCode" : 20231021,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "nvueStyleCompiler" : "uni-app",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Record" : {},
+            "UIWebview" : {},
+            "VideoPlayer" : {},
+            "Push" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MANAGE_APP_TOKENS\"/>",
+                    "<uses-permission android:name=\"android.permission.MANAGE_DOCUMENTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_FORMAT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "minSdkVersion" : 21,
+                "targetSdkVersion" : ""
+            },
+            "ios" : {
+                "dSYMs" : false
+            },
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "push" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/logo.png",
+                    "xhdpi" : "unpackage/logo.png",
+                    "xxhdpi" : "unpackage/logo.png",
+                    "xxxhdpi" : "unpackage/logo.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/logo.png",
+                    "ipad" : {
+                        "app" : "unpackage/logo.png",
+                        "app@2x" : "unpackage/logo.png",
+                        "notification" : "unpackage/logo.png",
+                        "notification@2x" : "unpackage/logo.png",
+                        "proapp@2x" : "unpackage/logo.png",
+                        "settings" : "unpackage/logo.png",
+                        "settings@2x" : "unpackage/logo.png",
+                        "spotlight" : "unpackage/logo.png",
+                        "spotlight@2x" : "unpackage/logo.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/logo.png",
+                        "app@3x" : "unpackage/logo.png",
+                        "notification@2x" : "unpackage/logo.png",
+                        "notification@3x" : "unpackage/logo.png",
+                        "settings@2x" : "unpackage/logo.png",
+                        "settings@3x" : "unpackage/logo.png",
+                        "spotlight@2x" : "unpackage/logo.png",
+                        "spotlight@3x" : "unpackage/logo.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "useOriginalMsgbox" : false,
+                "androidStyle" : "default",
+                "android" : {
+                    "hdpi" : "static/image/480.png",
+                    "xhdpi" : "static/image/720.png",
+                    "xxhdpi" : "static/image/1080.png"
+                }
+            }
+        },
+        "nativePlugins" : {
+            "lemonjk-FileSelect" : {
+                "__plugin_info__" : {
+                    "name" : "FileSelect",
+                    "description" : "文件选取插件",
+                    "platforms" : "Android,iOS",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "wxd36ac7a23fbfcfea",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : true
+        },
+        "lazyCodeLoading" : "requiredComponents",
+        "usingComponents" : true,
+        "permission" : {}
+    },
+    "vueVersion" : "3",
+    "h5" : {
+        "router" : {
+            "mode" : "hash",
+            "base" : "./"
+        },
+        "devServer" : {
+            "https" : false,
+            "port" : ""
+        },
+        "title" : "BaoBao TV",
+        "template" : "index.html"
+    },
+    "fallbackLocale" : "zh-Hans"
+}

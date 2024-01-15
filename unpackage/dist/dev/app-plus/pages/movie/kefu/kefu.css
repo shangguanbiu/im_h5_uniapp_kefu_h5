@@ -1,0 +1,20 @@
+
+.main[data-v-c1f55834] {
+		width: 100%;
+		height: calc(100vh - 45px);
+		display: flex;
+		color: #fff;
+		padding-top: 10px;
+}
+.kf_item[data-v-c1f55834] {
+		width: 50%;
+		display: block;
+
+		text-align: center;
+}
+.kf_itemico[data-v-c1f55834] {
+		padding: 5px 10px;position: relative;
+}
+body[data-v-c1f55834] {
+		background: #190D30;
+}
